@@ -33,7 +33,7 @@ public class SkillCheckService {
 			if (criteria.getName() != null && criteria.getAge() != null) {
 				return l.getName().contains(criteria.getName()) && l.getAge() >= criteria.getAge();
 			} else if (criteria.getAge() != null) {
-				if (criteria.getAge() > 90) {
+				if (criteria.getAge() >= 90) {
 					throw new RuntimeException("90歳以上は検索対象外です");
 				}
 				return l.getAge() >= criteria.getAge();
