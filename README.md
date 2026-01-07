@@ -14,7 +14,7 @@ IDEを使って実行しても構いません。
 SkillCheckResource.javaで定義されているデータについて、全件取得する、または条件を指定して絞り込めるAPIを持ったサーバーアプリケーションです。
 
 ## questions
-Q1〜Q4の回答はREADME.mdに記載し、Q5はプログラムを修正して、別途申し上げる方法で回答してください。Q6は新規にクラスを作成し、別途申し上げる方法で回答してください。
+Q1〜Q4の回答はREADME.mdに記載し、Q5はプログラムを修正、Q6は新規にクラスを作成し、別途申し上げる方法で回答してください。
 
 Q1: 本アプリケーションで定義されているAPIのパス、パラメーター名と型を記載してください。
 
@@ -34,9 +34,10 @@ A4:
 
 Q5: Q1のAPIで、SkillCheckResource.hasSKillの値を条件として検索できるように、パラメーター(名称: hasSkill, 型: Boolean)を追加してください。その際、SkillCheckService.java内のコメントに記載された条件を維持するようにしてください。
 
-Q6: あなたは新しい「SkillCategory」を管理する機能を追加することになりました。
+Q6: あなたは新しく「SkillCategory」を管理する機能を追加することになりました。
 以下の要件を満たすように、ControllerクラスとServiceクラスを新規に作成してください。
 すでに実装されているSkillCheckResourceクラスとSkillCheckServiceクラスを参考にして構いません。
+
 【要件】
 1. SkillCategoryの一覧を取得するAPI（GET /skillCategories）を実装すること。
 2. Serviceクラスには、SkillCategoryの一覧取得のロジックを実装すること。
