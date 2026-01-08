@@ -1,5 +1,7 @@
 package plus.proptech.recruitment.resource;
 
+import java.util.List;
+
 import lombok.Value;
 
 /**
@@ -20,4 +22,7 @@ public class SkillCheckResource {
 	 * スキルを持ってるかどうか
 	 */
 	private final boolean hasSkill;
+
+	// スキルカテゴリのリスト
+	private final List<SkillCategory> skills;
 }
